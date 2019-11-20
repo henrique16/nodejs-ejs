@@ -1,0 +1,17 @@
+<%- contentFor('body') %>
+    <div id="containerObj1" class="container-obj1">
+        <div class="content-obj1">
+            <div onclick="new Obj2().render(event)" class="comp-obj1">
+                <div class="cnt-obj1">
+                    <span style="cursor: pointer;">Opções</span>
+                </div>
+            </div>
+            <div class="comp-obj1">
+                <div class="cnt-obj1">
+                    <input id="quantidade" class="contains" type="text" placeholder="Quantidade" onchange="new Obj2().getContent(event)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="containerObj2" class="container-obj2"></div>
+    <div id="containerObj3" class="container-obj3"></div>

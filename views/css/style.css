@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input,
+select {
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.container-obj1 {
+    width: 20%;
+    background-color: #f5f5f5;
+}
+
+.container-obj2 {
+    position: absolute;
+    z-index: 1000;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.container-obj3 {
+    width: 80%;
+}
+
+.content-item {
+    padding: 70px;
+    height: calc(100% - 140px);
+}
+
+.content-obj1 {
+    padding-top: 70px;
+}
+
+.comp-obj1 {
+    padding-bottom: 56px;
+}
+
+.cnt-obj1 {
+    padding: 30px;
+    width: calc(100% - 60px);
+    display: block;
+    background-color: #aaa;
+}
+
+.item {
+    padding: 10px 26px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #aaa;
+    margin-bottom: 30px;
+}
+
+.item-inx {
+    width: 100px;
+}
+
+.item-inx-cnt {
+    text-align: center;
+}
+
+.item-inx-sp {
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-comp {
+    text-align: center;
+    width: calc(100% - 100px);
+}
+
+.content-obj2 {
+    padding: 70px 24px;
+}
