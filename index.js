@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express"),
     bodyParser = require("body-parser"),
     expressLayouts = require("express-ejs-layouts"),
@@ -7,7 +8,7 @@ const express = require("express"),
 
 app.set("view engine", "ejs");
 app.use(expressLayouts);
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/views"));
 
 app.get("/", (req, res) => {
